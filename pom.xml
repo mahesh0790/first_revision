@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.mahesh</groupId>
   <artifactId>mahekart</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.1-SNAPSHOT</version>
   <name>mahekart</name>
   <url>http://maven.apache.org</url>
@@ -15,4 +15,14 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+<build>
+<plugins>
+<plugin>
+         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.1.0</version>
+        <configuration>
+</plugin>
+</plugins>
+</build>
 </project>
